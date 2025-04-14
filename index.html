@@ -8,10 +8,25 @@
   </head>
   <body class="bg-neutral-200">
     <header>
-      <div class="custom-container ">
+      <div class="custom-container max-sm:w-[398px] ">
         <div class="">
-          <div class="flex items-center justify-between py-[33px]">
-            <div class="flex items-center gap-x-[16px]">
+          <div class="flex items-center justify-between py-[33px] ">
+            <div class="hidden max-sm:block">
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="flex items-center gap-x-[16px] ">
               <a href="./index.html">
                 <img class="size-[40px]" src="./assets/logo.png" alt="" />
               </a>
@@ -19,7 +34,7 @@
             </div>
             <div class="">
               <nav>
-                <ul class="flex gap-x-[64px]">
+                <ul class="flex gap-x-[64px] max-sm:hidden ">
                   <li>
                     <a class="block text-[14px] font-medium" href="#">Home</a>
                   </li>
@@ -42,7 +57,7 @@
               </nav>
             </div>
             <div class="">
-              <div class="flex items-center">
+              <div class="flex items-center max-sm:hidden">
                 <button
                   class="block px-8 py-4 rounded-full text-[14px] text-black font-medium"
                 >
@@ -62,15 +77,15 @@
 
     <main>
       <section>
-        <div class="custom-container">
+        <div class="custom-container max-sm:w-[398px] ">
           <div class="">
-            <div class="flex items-center ">
-              <div class="space-y-[43px] w-[412px] ">
+            <div class="flex items-center max-sm:flex-col-reverse max-sm:items-start">
+              <div class="space-y-[43px] w-[412px] max-sm:w-[398px]">
                 <div
-                  class="w-[224px] h-[56px] bg-amber-50 flex justify-center rounded-full"
+                  class="w-[224px] h-[56px] bg-amber-50 flex justify-center rounded-full max-sm:mx-auto"
                 >
                   <div class="flex items-center gap-x-[18px]">
-                    <h3 class="text-[#F85E9F] text-[14px]">
+                    <h3 class="text-[#F85E9F] text-[14px] ">
                       Explore the world!
                     </h3>
                     <svg
@@ -93,24 +108,24 @@
                   </div>
                 </div>
                 <div class="">
-                  <p class="text-[69px]">
-                    Travel<span class="text-[#F85E9F]">top destination</span>of
+                  <p class="text-[69px] max-sm:text-center max-sm:text-[42px]">
+                    Travel<span class="text-[#F85E9F] ">top destination</span>of
                     the world
                   </p>
-                  <p class="text-[18px] text-slate-400">
+                  <p class="text-[18px] text-slate-400 max-sm:text-center">
                     We always make our customer happy by <br />
                     providing <br />
                     as many choices as possible
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center max-sm:flex-col max-sm:gap-y-5">
                   <button
-                    class="block bg-[#5D50C6] px-8 py-4 rounded-full text-[14px] text-white font-medium"
+                    class="max-sm:w-full block bg-[#5D50C6] px-8 py-[19px] rounded-full text-[14px] text-white font-medium"
                   >
                     Get Started
                   </button>
                   <button
-                    class="px-[32px] py-[19px] rounded-full text-[14px] text-black font-medium bg-amber-50 flex items-center gap-x-2"
+                    class="max-sm:w-full px-[32px] py-[19px] rounded-full text-[14px] text-black font-medium bg-amber-50 flex items-center gap-x-2 max-sm:justify-center"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -131,13 +146,13 @@
                   </button>
                 </div>
               </div>
-              <div class="p-[100px]  w-[772px]">
+              <div class="p-[100px] w-[772px] max-sm:w-[295px] max-sm:px-[55px] max-sm:py-[100px]">
                 <div
-                  class="grid grid-cols-1 grid-rows-2 gap-y-9 w-[575px] relative "
+                  class="grid grid-cols-1 grid-rows-2 gap-y-9 w-[575px] max-sm:w-[295px] relative"
                 >
                   <div class="relative">
                     <img
-                      class="w-[272px] h-[300px] rounded-2xl object-cover"
+                      class="w-[272px] h-[300px] max-sm:w-[139px] max-sm:h-[154px] rounded-2xl object-cover"
                       src="./assets/pic1.jpg"
                       alt=""
                     />
@@ -160,7 +175,7 @@
                   </div>
                   <div class="absolute top-1/2 -translate-y-1/2 right-0">
                     <img
-                      class="w-[272px] h-[400px] rounded-2xl object-cover"
+                      class="w-[272px] h-[400px] max-sm:w-[139px] max-sm:h-[205px] rounded-2xl object-cover"
                       src="./assets/pic2.jpg"
                       alt=""
                     />
@@ -192,7 +207,7 @@
                   </div>
                   <div class="relative w-[272px]">
                     <img
-                      class="w-[272px] h-[300px] rounded-2xl object-cover"
+                      class="w-[272px] h-[300px] max-sm:w-[139px] max-sm:h-[154px] rounded-2xl object-cover"
                       src="./assets/pic3.jpg"
                       alt=""
                     />
@@ -221,34 +236,36 @@
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class="py-[64px] ">
-            <div class="flex justify-between">
-              <img src="./assets/a1.png" alt="" />
-              <img src="./assets/a2.png" alt="" />
-              <img src="./assets/a3.png" alt="" />
-              <img src="./assets/a4.png" alt="" />
-              <img src="./assets/a5.png" alt="" />
+        <div class="custom-container max-sm:w-[398px]">
+          <div class="py-[64px]">
+            <div class="flex justify-between max-sm:grid max-sm:grid-cols-3 gap-8">
+              <img class=" " src="./assets/a1.png" alt="" />
+              <img class=" " src="./assets/a2.png" alt="" />
+              <img class=" " src="./assets/a3.png" alt="" />
+              <img class=" max-sm:ml-20" src="./assets/a4.png" alt="" />
+              <img class=" max-sm:ml-20" src="./assets/a5.png" alt="" />
             </div>
           </div>
         </div>
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class=" py-[64px]">
-            <div class="flex justify-between">
-              <div class="w-[444px]">
-                <h3 class="text-[23px] font-bold text-[#F85E9F] uppercase">
+        <div class="custom-container max-sm:w-[398px]">
+          <div class="py-[64px]">
+            <div class="flex justify-between max-sm:flex-col">
+              <div class="w-[444px] max-sm:w-full">
+                <h3 class="text-[23px] max-sm:text-center font-bold text-[#F85E9F] uppercase">
                   services
                 </h3>
-                <p class="text-[44px] font-bold">
+                <p class="text-[44px] max-sm:text-[32px] font-bold max-sm:text-center">
                   Our top value categories for you
                 </p>
               </div>
               <div class="">
-                <div class="flex">
-                  <div class="w-[350px] h-[443px] border border-slate-300 p-[64px]">
+                <div class="flex max-sm:flex-col max-sm:items-center max-sm:gap-y-10">
+                  <div
+                    class="w-[350px] h-[443px] border border-slate-300 p-[64px]"
+                  >
                     <img
                       class="mb-[64px] size-[64px] mx-auto"
                       src="./assets/w1.png"
@@ -262,7 +279,9 @@
                       feet.
                     </p>
                   </div>
-                  <div class="w-[350px] h-[443px] border border-slate-300 p-[64px]">
+                  <div
+                    class="w-[350px] h-[443px] border border-slate-300 p-[64px]"
+                  >
                     <img
                       class="mb-[64px] size-[64px] mx-auto"
                       src="./assets/booking.png"
@@ -283,19 +302,19 @@
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class=" py-[64px]">
-            <div class="flex  justify-between mb-[64px]">
+        <div class="custom-container max-sm:w-[398px] max-sm:mb-[560px]">
+          <div class="py-[64px] ">
+            <div class="flex justify-between mb-[64px] max-sm:flex-col max-sm:items-center">
               <div class="">
-                <h3 class="uppercase font-medium text-[23px]">
+                <h3 class="uppercase font-medium text-[23px] max-sm:text-center">
                   Top destination
                 </h3>
-                <h1 class="font-bold text-[44px]">Explore top destination</h1>
+                <h1 class="font-bold text-[44px] max-sm:text-center max-sm:text-[34px]">Explore top destination</h1>
               </div>
               <div class="">
-                <div class="flex gap-x-[32px]">
+                <div class="flex gap-x-[32px] max-sm:justify-between max-sm:gap-x-0  max-sm:w-[398px]">
                   <button
-                    class="flex items-center justify-center size-[100px] rounded-full "
+                    class="flex items-center  justify-center size-[100px] rounded-full max-sm:border"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -310,7 +329,7 @@
                     </svg>
                   </button>
                   <button
-                    class="flex items-center justify-center size-[100px] rounded-full border border-[#5D50C6] bg-[#5D50C6]"
+                    class="flex items-center  justify-center size-[100px] rounded-full border border-[#5D50C6] bg-[#5D50C6]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -329,10 +348,10 @@
               </div>
             </div>
 
-            <div class="">
-              <div class="grid grid-cols-3">
-                <div class="border rounded-4xl overflow-hidden w-[373px]">
-                  <img class="h-[350px]" src="./assets/pic4.jpg" alt="" />
+            <div class=" ">
+              <div class="grid grid-cols-3 max-sm:grid-cols-1 max-sm:gap-y-8">
+                <div class="border rounded-4xl overflow-hidden w-[373px] max-sm:mx-auto">
+                  <img class="h-[350px] " src="./assets/pic4.jpg" alt="" />
                   <div class="p-[32px]">
                     <div class="flex justify-between">
                       <div class="mb-5">
@@ -364,7 +383,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="border rounded-4xl overflow-hidden w-[373px]">
+                <div class="border rounded-4xl overflow-hidden w-[373px] max-sm:mx-auto">
                   <img class="h-[350px]" src="./assets/pic5.jpg" alt="" />
                   <div class="p-[32px]">
                     <div class="flex justify-between">
@@ -397,7 +416,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="border rounded-4xl overflow-hidden w-[373px]">
+                <div class="border rounded-4xl overflow-hidden w-[373px] max-sm:mx-auto">
                   <img
                     class="h-[350px] w-full object-cover"
                     src="./assets/pic6.jpg"
@@ -443,12 +462,12 @@
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class="py-[64px] ">
-            <div class="flex">
-              <div class="w-[871px]  relative">
+        <div class="custom-container max-sm:w-[398px]">
+          <div class="py-[64px]">
+            <div class="flex  max-sm:flex-col">
+              <div class="w-[871px] relative">
                 <img
-                  class="absolute -bottom-12 z-10  w-[600px] rotate-y-180"
+                  class="absolute -bottom-12 z-10 w-[600px] rotate-y-180"
                   src="./assets/girl-removebg.png"
                   alt=""
                 />
@@ -473,21 +492,21 @@
                   <p class="">Discounted pirce</p>
                 </div>
               </div>
-              <div class="w-[441px] ">
-                <div class="mb-[64px] space-y-[32px] relative ">
-                  <h3 class="text-[23px] uppercase text-[#F85E9F] font-bold">
+              <div class="w-[441px] max-sm:w-full">
+                <div class="mb-[64px] space-y-[32px] relative">
+                  <h3 class="text-[23px] max-sm:mt-5 max-sm:text-center uppercase text-[#F85E9F] font-bold">
                     travel point
                   </h3>
-                  <h1 class="text-[40px] font-bold">
+                  <h1 class="text-[40px] max-sm:text-[34px] max-sm:text-center font-bold">
                     We helping you find your dream location
                   </h1>
-                  <p class="text-[18px] text-slate-500">
+                  <p class="text-[18px] max-sm:text-center text-slate-500">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC.
                   </p>
                   <div
-                    class="size-[100px] flex justify-center items-center bg-amber-300 rounded-full absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2"
+                    class="size-[100px] flex  justify-center items-center max-sm:bottom-[-20px] bg-amber-300 rounded-full absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -504,7 +523,7 @@
                   </div>
                 </div>
                 <div class="">
-                  <div class="grid grid-cols-2 gap-6">
+                  <div class="grid grid-cols-2 gap-6 max-sm:grid-cols-1">
                     <div class="border p-3 rounded-4xl">
                       <p
                         class="text-[35px] mb-3 text-center text-[#FF5722] font-bold"
@@ -546,27 +565,27 @@
       </section>
 
       <section>
-        <div class="custom-container">
+        <div class="custom-container max-sm:w-[398px]">
           <div class="py-[64px] ">
-            <div class="flex">
-              <div class="w-[549px] ">
-                <div class=" mb-[64px]">
-                  <h3 class="text-[23px] uppercase text-[#F85E9F] font-bold">
+            <div class="flex max-sm:flex-col-reverse">
+              <div class="w-[549px] max-sm:w-[398px]">
+                <div class="mb-[64px]">
+                  <h3 class="text-[23px] max-sm:text-center  uppercase text-[#F85E9F] font-bold">
                     key features
                   </h3>
-                  <h1 class="text-[44px] font-bold mb-5">
+                  <h1 class="text-[44px] font-bold mb-5 max-sm:text-center">
                     We offer best services
                   </h1>
-                  <p class="text-[18px] text-slate-500">
+                  <p class="text-[18px] text-slate-500 max-sm:text-center">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     <br />
                     from 45 BC.
                   </p>
                 </div>
-                <div class=" p-5">
+                <div class="p-5">
                   <div class="">
-                    <div class="flex  p-[32px] gap-x-6 items-center">
+                    <div class="flex p-[32px] gap-x-6 items-center  max-sm:flex-col max-sm:items-start max-sm:gap-y-3">
                       <div
                         class="size-[100px] rounded-2xl flex justify-center items-center bg-[#FF5722]"
                       >
@@ -594,7 +613,7 @@
                     </div>
                   </div>
                   <div class="">
-                    <div class="flex  p-[32px] gap-x-6 items-center">
+                    <div class="flex p-[32px] gap-x-6 items-center max-sm:flex-col max-sm:items-start max-sm:gap-y-3">
                       <div
                         class="size-[100px] rounded-2xl flex justify-center items-center bg-[#FACD49]"
                       >
@@ -622,7 +641,7 @@
                     </div>
                   </div>
                   <div class="">
-                    <div class="flex p-[32px] gap-x-6 items-center">
+                    <div class="flex p-[32px] gap-x-6 items-center max-sm:flex-col max-sm:items-start max-sm:gap-y-3">
                       <div
                         class="size-[100px] rounded-2xl flex justify-center items-center bg-[#F85E9F]"
                       >
@@ -651,14 +670,14 @@
                   </div>
                 </div>
               </div>
-              <div class="w-[693px] h-[869px]  relative">
+              <div class="w-[693px]  max-sm:h-[500px] h-[869px] relative max-sm:w-[398px]">
                 <img
-                  class="w-[450px] rounded-t-full rounded-b-full relative top-[50px]"
+                  class="w-[450px] max-sm:w-[250px] rounded-t-full rounded-b-full relative top-[50px]"
                   src="./assets/pic8.jpg"
                   alt=""
                 />
                 <img
-                  class="absolute w-[400px] h-[520px] rounded-t-full object-cover rounded-b-full bottom-[40px] left-[240px] z-30 border-[30px] border-neutral-200"
+                  class="absolute w-[400px] max-sm:w-[220px] max-sm:top-[180px] max-sm:left-[125px] max-sm:h-[320px]  h-[520px] rounded-t-full object-cover rounded-b-full bottom-[40px] left-[240px] z-30 border-[30px] border-neutral-200"
                   src="./assets/pic7.jpg"
                   alt=""
                 />
@@ -669,12 +688,12 @@
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class=" mb-[177px]">
-            <div class="flex justify-between items-center">
+        <div class="custom-container max-sm:w-[398px] ">
+          <div class="mb-[177px] max-sm:mb-20">
+            <div class="flex justify-between items-center max-sm:flex-col">
               <div class="">
                 <button
-                  class="flex justify-center items-center size-[100px] bg-slate-100 rounded-full"
+                  class="max-sm:hidden flex justify-center items-center size-[100px] bg-slate-100 rounded-full"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -689,7 +708,7 @@
                   </svg>
                 </button>
               </div>
-              <div class="w-[872px]">
+              <div class="w-[872px] max-sm:w-[398px] ">
                 <div class="flex flex-col items-center gap-y-[24px]">
                   <div class="">
                     <h3
@@ -781,7 +800,7 @@
                   </div>
                 </div>
               </div>
-              <div class="">
+              <div class="max-sm:flex max-sm:flex-row-reverse max-sm:justify-between max-sm:w-full">
                 <button
                   class="flex justify-center items-center size-[100px] bg-[#5D50C6] rounded-full"
                 >
@@ -798,6 +817,22 @@
                     ></path>
                   </svg>
                 </button>
+
+                <button
+                  class="flex justify-center items-center size-[100px] bg-slate-100 rounded-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"
+                    ></path>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -805,23 +840,23 @@
       </section>
 
       <section>
-        <div class="custom-container">
-          <div class="px-[64px] py-[128px] ">
-            <div class=" mb-15">
+        <div class="custom-container max-sm:w-[398px]">
+          <div class="px-[64px] py-[128px] max-sm:p-0">
+            <div class="mb-15">
               <h3
-                class="uppercase text-[24px] mb-5 text-center font-bold text-[#F85E9F]"
+                class="uppercase  text-[24px] mb-5 text-center font-bold text-[#F85E9F]"
               >
                 subscribe to our newsletter
               </h3>
-              <h1 class="text-[55px] font-bold text-center">
+              <h1 class="text-[55px] max-sm:text-[34px] font-bold text-center">
                 Prepare yourself & let's explore the beauty of the world
               </h1>
             </div>
             <div class="">
-              <div class="flex justify-between">
-                <div class="relative">
+              <div class="flex justify-between max-sm:flex-col">
+                <div class="relative max-sm:mb-10">
                   <input
-                    class="block w-[757px] h-[96px] border border-slate-400 pl-20 pr-10 placeholder:text-[24px] text-[24px]"
+                    class="block max-sm:w-full w-[757px] h-[96px] border border-slate-400 pl-20 pr-10 placeholder:text-[24px] text-[24px]"
                     type="email"
                     placeholder="Your Email"
                   />
@@ -839,7 +874,7 @@
                   </svg>
                 </div>
                 <button
-                  class="bg-purple-500 px-18 text-[18px] rounded-2xl text-white font-bold"
+                  class="max-sm:h-[96px] bg-purple-500 px-18 text-[18px] rounded-2xl text-white font-bold"
                 >
                   Subscribe
                 </button>
@@ -850,25 +885,28 @@
       </section>
 
       <footer>
-        <div class="custom-container">
-          <div class=" py-[64px]">
-            <div class="flex justify-between">
-              <div class=" w-[560px]">
+        <div class="custom-container max-sm:w-[398px]">
+          <div class="py-[64px]">
+            <div class="flex justify-between max-sm:flex-col">
+              <div class="w-[560px] max-sm:w-full">
                 <div class="flex flex-col gap-y-10">
-                  <div class="flex items-center gap-x-5">
+                  <div class="flex items-center gap-x-5 ">
                     <a class="block" href="./index.html">
                       <img class="size-[40px]" src="./assets/logo.png" alt="" />
                     </a>
                     <h3 class="text-[24px]">Travlog</h3>
                   </div>
-                  <p class="text-[23px] text-slate-500 mb-5">
+                  <p class="text-[23px]  text-slate-500 mb-5">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC.
                   </p>
-                  <div class="">
+                  <div class=" max-sm:mb-10">
                     <div class="flex items-center gap-x-10">
-                      <a class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full" href="#">
+                      <a
+                        class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full"
+                        href="#"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
@@ -881,21 +919,26 @@
                           ></path>
                         </svg>
                       </a>
-                      <a class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full" href="#">
+                      <a
+                        class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full"
+                        href="#"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
                           fill="white"
                           viewBox="0 0 256 256"
-                        
                         >
                           <path
                             d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
                           ></path>
                         </svg>
                       </a>
-                      <a class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full" href="#">
+                      <a
+                        class="flex size-[48px] bg-purple-500 justify-center items-center rounded-full"
+                        href="#"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
@@ -912,24 +955,27 @@
                   </div>
                 </div>
               </div>
-              <div class=" w-[560px] ">
-
-                <div class="flex justify-between">
-                  <div class=" w-[165px]">
+              <div class="w-[560px] max-sm:w-full">
+                <div class="flex justify-between max-sm:flex-col max-sm:gap-y-10">
+                  <div class="w-[165px]">
                     <h1 class="text-[23px] mb-8 font-bold">Company</h1>
                     <ul class="space-y-[30px]">
                       <li>
                         <a class="text-[18px] text-slate-500" href="#">About</a>
                       </li>
                       <li>
-                        <a class="text-[18px] text-slate-500" href="#">Career</a>
+                        <a class="text-[18px] text-slate-500" href="#"
+                          >Career</a
+                        >
                       </li>
                       <li>
-                        <a class="text-[18px] text-slate-500" href="#">Mobile</a>
+                        <a class="text-[18px] text-slate-500" href="#"
+                          >Mobile</a
+                        >
                       </li>
                     </ul>
                   </div>
-                  <div class=" w-[165px]">
+                  <div class="w-[165px]">
                     <h1 class="text-[23px] mb-8 font-bold">Contact</h1>
                     <ul class="space-y-[30px]">
                       <li>
@@ -946,21 +992,26 @@
                       </li>
                     </ul>
                   </div>
-                  <div class=" w-[165px]">
+                  <div class="w-[165px]">
                     <h1 class="text-[23px] mb-8 font-bold">Meet Us</h1>
                     <ul class="space-y-[30px]">
                       <li>
-                        <a class="text-[18px] text-slate-500" href="#">+00 92 1234 56789</a>
+                        <a class="text-[18px] text-slate-500" href="#"
+                          >+00 92 1234 56789</a
+                        >
                       </li>
                       <li>
-                        <a class="text-[18px] text-slate-500" href="#">info@travlog.com</a>
+                        <a class="text-[18px] text-slate-500" href="#"
+                          >info@travlog.com</a
+                        >
                       </li>
                       <li>
                         <a class="text-[18px] text-slate-500" href="#"></a>
                       </li>
-                      
                     </ul>
-                    <address class="text-[18px] text-slate-500">205. R Street, New York</address>
+                    <address class="text-[18px] text-slate-500">
+                      205. R Street, New York
+                    </address>
                   </div>
                 </div>
               </div>
